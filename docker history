@@ -1,0 +1,347 @@
+[root@manager ~]# history
+    1  apt install docker -y
+    2  sudo install apt -y
+    3  yum install docker -y
+    4  systemctl start docker
+    5  vi Dockerfile
+    6  vi index.html
+    7  docker build -t movie:v1 .
+    8  docker images
+    9  docker run -itd --name movies -p 81:80 movie:v1
+   10  exit
+   11  vi index.html
+   12  docker build -t movie:v1 .
+   13  docker run -itd --name train -p 82:80 movie:v1
+   14  sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   15  ls /usr/local/bin/
+   16  sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+   17  sudo chmod +x /usr/local/bin/docker-compose
+   18  docker-compose version
+   19  vim docker-compose.yml
+   20  docker-compose up -d
+   21  vim docker-compose.yml
+   22  docker-compose up -d
+   23  docker images
+   24  vim docker-compose.yml
+   25  docker-compose up -d
+   26  vim docker-compose.yml
+   27  docker kill $(docker ps -a -q)
+   28  docker rm $(docker ps -a -q)
+   29  docker-compose up -d
+   30  vim docker-compose.yml
+   31  vim docker-compose.yml 
+   32  docker ps -a
+   33  docker-compose down
+   34  cat docker-compose.yml 
+   35  docker-compose up -d
+   36  docker ps -a
+   37  cat Dockerfile 
+   38  docker-compose down
+   39  docker images
+   40  docker-compose images
+   41  docker-compose up -d
+   42  docker-compose images
+   43  docker-compose ps
+   44  docker-compose logs
+   45  docker-compose scale train
+   46  docker-compose scale train=5
+   47  docker ps -a
+   48  docker-compose rm train
+   49  docker-compose ps
+   50  docker-compose port
+   51  docker-compose train port
+   52  docker-compose ps
+   53  docker-compose top
+   54  docker-compose top sudo curl -L "https://github.com/docker/compose/releases/download/1.29.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   55  ls /usr/local/bin/
+   56  sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+   57  sudo chmod +x /usr/local/bin/docker-compose
+   58  docker-compose root_train_1
+   59  docker-compose top root_train_1
+   60  docker top root_train_1
+   61  docker-compose top 
+   62  docker run -it --name cont1 -p 8080:8080 jenkins/jenkins:lts
+   63  ll
+   64  docker ps 
+   65  docker ps -a
+   66  docker start 10055da45715
+   67  docker ps 
+   68  mvn -v
+   69  yum install maven tree -v
+   70  yum install maven tree -y
+   71  mvn -v
+   72  yum install maven tree -y
+   73  apt install maven -y
+   74  yum install maven -y
+   75  sudo yum install maven -y
+   76  MVN -V
+   77  mvn -v
+   78  tree --version
+   79  tree -version
+   80  tree --version
+   81  tree -version
+   82  tree
+   83  cd /tmp
+   84  ll
+   85  mkdir /var/jenkins_home/workspace/netflix
+   86  cd /var
+   87  ls
+   88  mkdir -p jenkins_home/workspace/netflix
+   89  cd jenkins_home/workspace/netflix
+   90  ll
+   91  docker ps -a
+   92  yum install docker -y
+   93  systemctl docker start
+   94  systemctl start docker
+   95  vim Dockerfile
+   96  vim index.html
+   97  docker build -t movies:v1 .
+   98  docker images
+   99  docker images -q
+  100  docker r
+  101  docker rmi $(docker images -q)
+  102  docker stop $(docker images -q)
+  103  docker stop $(docker ps -a -q)
+  104  docker rmi $(docker images -q)
+  105  docker rm $(docker ps -a -q)
+  106  docker rmi $(docker images -q)
+  107  docker images -q
+  108  docker build -t movies:v1 .
+  109  docker images
+  110  docker tag movies:v1 rajaram890/movies
+  111  docker push movies:v1 rajaram890/movies
+  112  docker images
+  113  docker login
+  114  docker push rajaram890/movies
+  115  vim index.html 
+  116  docker build -t trains:v1 .
+  117  docker tag trains:v1 rajaram890/trains
+  118  docker tag push rajaram890/trains
+  119  docker push rajaram890/trains
+  120  docker rmi -f $(docker images -q)
+  121  docker images
+  122  swarm join-token
+  123  docker swarm join-token
+  124  docker swarm join-token 13.37.250.165
+  125  docker swarm join-token test-2
+  126  docker swarm join-token worker
+  127  docker swarm ps
+  128  docker swarm ls
+  129  docker service ps
+  130  docker service ls
+  131  docker service ps movies
+  132  docker service 
+  133  docker service scale movies=4
+  134  docker ps
+  135  docker service scale movies=20
+  136  docker ps
+  137  docker kill 10b605c30775
+  138  docker ps
+  139  docker swarm join-token manager
+  140  docker swarm join-token worker
+  141  docker service create --name train --replicas==5 --publish 82:80 rajaram890/trains
+  142  docker service create --name train --replicas=5 --publish 82:80 rajaram890/trains
+  143  docker ps -a
+  144  docker service ls
+  145  docker service 
+  146  docker service ps
+  147  docker service ps movies
+  148  docker service train
+  149  docker service ps train
+  150  hostnamectl set-hostname manager
+  151  docker service ps train
+  152  docker service scale train =10
+  153  docker service scale train=10
+  154  docker ps -a
+  155  docker ps train
+  156  docker service ps train
+  157  docker servicerollback train
+  158  docker service rollback train
+  159  docker ps -a
+  160  docker service rm train
+  161  docker ps -a
+  162  docker service ps train
+  163  docker ps -a
+  164  docker service ls
+  165  docker kill 8a36dd20b29c
+  166  docker ps -a
+  167  docker kill 6f2a949f7a46
+  168  docker ps -a
+  169  docker swarm
+  170  docker swarm join
+  171  docker swarm join test-1
+  172  docker swarm join test-2
+  173  docker unlock swarm
+  174  docker swarm unlock
+  175  docker swarm
+  176  docker swarm unlock-key
+  177  docker swarm update
+  178  docker ps
+  179  docker swarm init
+  180  docker node ls
+  181  docker run -itd --name cont1 rajaram890/movies:latest
+  182  docker images
+  183  docker ps -a
+  184  docker kill cont1
+  185  docker rm cont1
+  186  docker service  create --name movies --replicas=3 --publish 81:80 rajaram890/movies:latest
+  187  docker ps -a
+  188  hostname -i
+  189  docker swarm join-token worker
+  190  docker node ls
+  191  docker swarm --force-new-cluster
+  192  docker swarm join
+  193  docker swarm join --force-new-cluster
+  194  docker swarm join 13.39.47.88:81
+  195  docker swarm join-token manager
+  196  docker node ls
+  197  docker service ps
+  198  docker service ls
+  199  docker swarm leave
+  200  docker swarm leave --force
+  201  docker swarm init
+  202  docker node ls
+  203  docker swarm join-token manager
+  204  docker node ls
+  205  docker run -itd --name container1 --replicas=7 --publish 81:80 rajaram80/movies
+  206  docker node ls
+  207  systemctl start docker
+  208  docker node ls
+  209  docker service create --name container1 --replicas=8 --publish 81:80 rajaram890/movies
+  210   docker service ls
+  211  docker ps
+  212  docker node ls
+  213  docker swarm join-token worker
+  214  sudo docker swarm join-token worker
+  215  docker node ls
+  216  docker swarm leave --force
+  217  docker swarm init
+  218  docker node ls
+  219  docker service create --name contt11 --replicas=5 --publish 81:80 rajaram890/movies
+  220  docker ps -a
+  221  docker ps 
+  222  docker node ls
+  223  docker ps 
+  224  docker node ls
+  225  docker node ls
+  226  docker node rm 3cgcymle4q225tgr7yydq3q36 ve8lr2x8xmyhvd23jtjo2e8yc
+  227  docker node ls
+  228  vim jenkins.sh
+  229  sh jenkins.sh 
+  230  cd /var/lib/jenkins/workspace/
+  231  ll
+  232  cd docker\ pipeline/
+  233  ll
+  234  vi index.html 
+  235  cd /var//lib//jenkins//workspace/
+  236  cd docker\ pipeline/
+  237  ll
+  238  vi index.html
+  239  cd /var/run/docker.sock
+  240  chmod 777 /var/run/docker.sock
+  241  docker images
+  242  docker node ps
+  243  docker node ls
+  244  systemctl start docker
+  245  systemctl start jenkins.service
+  246  systemctl status jenkins.service
+  247  docker ps -a
+  248  docker ps 
+  249  docker node ls
+  250  docker ps -a
+  251  docker ps 
+  252  docker service ls
+  253  docker node ls
+  254  vi docker-compose.yml 
+  255  cd /var/lib/jenkins/workspace/docker\ pipeline
+  256  ll
+  257  cd ..
+  258  ll
+  259  cd deploy
+  260  ll
+  261  cat docker-compose.yml 
+  262  ll
+  263   ll
+  264  docker stack ls
+  265  systemctl restart docker
+  266  docker stack ls
+  267  docker service ls
+  268  docker node ls
+  269  docker ps
+  270  docker service ls
+  271  docker stack ps paytm
+  272  docker stack ps paytm | grep -c
+  273  docker stack ps paytm | grep -c "rajaram890"
+  274  systemctl restart docker
+  275  docker ps
+  276  systemctl restart docker
+  277  docker ps
+  278  ll
+  279  systemctl docker ps
+  280  systemctl docker start
+  281  systemctl start docker
+  282  docker ps
+  283  docker node ls
+  284  docker service scale paytm=20
+  285  docker service scale movies1=20
+  286  docker service scale paytrain=20
+  287  docker service ls
+  288  docker service scale paytm_train=10
+  289  docker ps
+  290  docker ps | grep -c "rajaram890"
+  291  docker ps
+  292  docker service ls
+  293  docker ps | grep -i "paytm_train"
+  294  docker ps | grep -v "paytm_train"
+  295  docker ps | grep -i "paytm_movies1"
+  296  docker ps | grep -i "paytm_dth"
+  297  docker ps | grep -i "paytm_recharge"
+  298  curl -L https://downloads.poratainer.io/ec2-16/portainer-agent-stack.yml -o portainer=agent-stack.yml
+  299  curl -L https://downloads.portainer.io/ce2-16/portainer-agent-stack.yml -o portainer-agent-stack.yml
+  300  ll
+  301  cat portainer-agent-stack.yml 
+  302  docker stack deploy -c portainer-agent-stack.yml portainer
+  303  docker stack ps portainer
+  304  systemctl restart portainer
+  305  docker service restart portainer
+  306  docker stack restart portainer
+  307  docker restart portainer
+  308  docker ps
+  309  docker restart 857efc6bbf98
+  310  docker ps
+  311  docker stack ls
+  312  docker sevrice ls
+  313  docker seevice ls
+  314  docker service ls
+  315  docker ps
+  316  docker images
+  317  docker images -q
+  318  docker images
+  319  docker rmi -f 857efc6bbf98
+  320  docker rmi -f 3e97b7ce14ab
+  321  docker stop 3e97b7ce14ab
+  322  docker stop d7189ce2a42d
+  323  docker rmi -f 3e97b7ce14ab
+  324  docker service ls
+  325  docker ps
+  326  docker service ls
+  327  docker stack ls
+  328  docker stach rm portainer
+  329  docker stack rm portainer
+  330  docker stack ls
+  331  docker service ls
+  332  docker stop bu7yv5ax1llh
+  333  docker ps
+  334  docker kill $(docker ps -q)
+  335* 
+  336  docker rm $(docker ps -q)
+  337  docker rm $(docker ps -a -q)
+  338  docker ps
+  339  docker service ls
+  340  docker service 
+  341  docker service rm bu7yv5ax1llh 
+  342  docker service ls
+  343  docker ps
+  344  docker ps -a
+  345  history
+[root@manager ~]# 
